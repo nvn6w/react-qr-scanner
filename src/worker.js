@@ -54,5 +54,5 @@ self.addEventListener("message", (e) => {
     } catch (err) {
       postMessage(null);
     }
-  }, 1000);
+  }, 2000);
 });
